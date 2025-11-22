@@ -32,7 +32,7 @@ function CitiesProvider({children}) {
             const data = await res.json();
             setCurrentCity(data);
         } catch (err){
-            alert('There was an error while loading a data')
+            // alert('There was an error while loading a data')
         } finally {
             setLoading(false);
         }
