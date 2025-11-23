@@ -4,5 +4,6 @@ import { ESLint } from 'eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/worldwise/", 
   plugins: [react(), new ESLint()],
 })
